@@ -13,7 +13,7 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              自从用了伍导的服务器，我的代码再也没有bug了，NPL实验的精度也提升了20个点！
+              自从用了伍导的服务器，我的代码再也没有 bug 了，NPL 实验的精度也提升了<Mark>20 个点</Mark>！
             </p>
 
             <Avatar
@@ -26,7 +26,7 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              5$你买不了吃亏，买不了上当，但你可以买到伍导温暖的怀抱和强劲的算力！
+              5$ 你买不了吃亏，买不了上当，但你可以买到伍导温暖的怀抱和强劲的算力！
             </p>
 
             <Avatar

@@ -29,7 +29,7 @@ export default function Home() {
         本视频将带您深入了解ECWU Cloud的灵魂人物——伍导。看他如何在代码的世界里挥洒自如，在学术的海洋里乘风破浪。
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="dQw4w9WgXcQ" />
 
       <SectionTitle
         preTitle="群友好评"
