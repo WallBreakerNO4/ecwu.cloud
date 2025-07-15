@@ -45,7 +45,7 @@ const benefitTwo = {
     },
     {
       title: "伍导亲自部署",
-      desc: "每一台服务器都由伍导亲自部署和优化，确保最佳性能。",
+      desc: "每一台服务器都由伍导亲自部署~~种植~~，确保最佳性能。",
       icon: <ServerStackIcon />,
     },
     {
