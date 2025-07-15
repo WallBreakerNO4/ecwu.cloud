@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/Hero.jpg";
 
 export const Hero = () => {
   return (
@@ -39,7 +39,7 @@ export const Hero = () => {
               src={heroImg}
               width="616"
               height="617"
-              className={"object-cover"}
+              className={"object-cover rounded-2xl"}
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"

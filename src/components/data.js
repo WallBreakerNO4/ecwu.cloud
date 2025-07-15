@@ -7,8 +7,8 @@ import {
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/Benefits_A.jpg";
+import benefitTwoImg from "../../public/img/Benefits_B.jpg";
 
 const benefitOne = {
   title: "珠三角最大IDC供应商",
@@ -27,7 +27,7 @@ const benefitOne = {
     },
     {
       title: "AI 计算优化",
-      desc: "我们配备了顶级显卡，专为 AI 计算优化，助您在 NPL 领域取得突破。",
+      desc: "我们配备~~偷渡~~了顶级显卡，专为 AI 计算优化，助您在 NPL 领域取得突破。",
       icon: <CpuChipIcon />,
     },
   ],
