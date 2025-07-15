@@ -17,7 +17,7 @@ const benefitOne = {
   bullets: [
     {
       title: "强大的技术支持",
-      desc: "伍导拥有多年虚拟化和容器技术经验，为您提供5x8(UTC+0)小时的间断技术支持。",
+      desc: "伍导拥有多年虚拟化和容器技术经验，为您提供5x8(UTC+0)小时的~~不~~间断技术支持。",
       icon: <ShieldCheckIcon />,
     },
     {
@@ -27,7 +27,7 @@ const benefitOne = {
     },
     {
       title: "AI 计算优化",
-      desc: "我们的 NAS 配备了顶级显卡，专为 AI 计算优化，助您在 NPL 领域取得突破。",
+      desc: "我们配备了顶级显卡，专为 AI 计算优化，助您在 NPL 领域取得突破。",
       icon: <CpuChipIcon />,
     },
   ],
@@ -50,7 +50,7 @@ const benefitTwo = {
     },
     {
       title: "无限欢乐时光",
-      desc: "购买我们的服务，即可获得与伍导在线吹水的宝贵机会。",
+      desc: "购买服务，即可获得与伍导在线吹水的宝贵机会。",
       icon: <ChatBubbleLeftRightIcon />,
     },
   ],

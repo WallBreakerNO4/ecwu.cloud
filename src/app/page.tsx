@@ -14,9 +14,9 @@ export default function Home() {
       <Hero />
       <SectionTitle
         preTitle="ECWU Cloud 特色"
-        title="为什么选择我们？"
+        title="深入了解我们的特色"
       >
-        我们不仅提供强大的算力，更提供无微不至的博士级关怀。选择ECWU Cloud，就是选择与最前沿的NPL技术为伍。
+        我们不仅提供强大的算力，更提供无微不至的博士级关怀。选择 ECWU Cloud，就是选择与最前沿的 NPL 技术为伍。
       </SectionTitle>
 
       <Benefits data={benefitOne} />
@@ -24,7 +24,7 @@ export default function Home() {
 
       <SectionTitle
         preTitle="伍导风采"
-        title="深入了解我们的首席科学家"
+        title="了解我们的首席科学家"
       >
         本视频将带您深入了解ECWU Cloud的灵魂人物——伍导。看他如何在代码的世界里挥洒自如，在学术的海洋里乘风破浪。
       </SectionTitle>
