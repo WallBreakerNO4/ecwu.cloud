@@ -11,50 +11,49 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "珠三角最大IDC供应商",
+  desc: "ECWU Cloud，您身边的云服务专家。我们提供从 NAS 组建到云服务器租赁的全方位解决方案，由 NPL 方向的在读博士伍导亲自为您服务。",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "强大的技术支持",
+      desc: "伍导拥有多年虚拟化和容器技术经验，为您提供7x24小时不间断的技术支持。",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "价格实惠",
+      desc: "仅需5$，即可拥有伍导的贴心服务和强大的服务器资源。",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "AI 计算优化",
+      desc: "我们的 NAS 配备了顶级显卡，专为 AI 计算优化，助您在 NPL 领域取得突破。",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "为什么选择我们？",
+  desc: "我们不仅仅是云服务商，更是您在 HCC 群聊中的老朋友。选择我们，就是选择一份信任和欢乐。",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "HCC 官方认证",
+      desc: "作为 HCC 群聊的官方指定云服务商，我们值得信赖。",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "伍导亲自部署",
+      desc: "每一台服务器都由伍导亲自部署和优化，确保最佳性能。",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "无限欢乐时光",
+      desc: "购买我们的服务，即可获得与伍导在线吹水的宝贵机会。",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
