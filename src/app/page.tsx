@@ -26,22 +26,22 @@ export default function Home() {
         preTitle="伍导风采"
         title="了解我们的首席科学家"
       >
-        本视频将带您深入了解ECWU Cloud的灵魂人物——伍导。看他如何在代码的世界里挥洒自如，在学术的海洋里乘风破浪。
+        本视频将带您深入了解 ECWU Cloud 的灵魂人物 —— 伍导。看他如何构建我们的关键服务器的。
       </SectionTitle>
 
-      <Video videoId="dQw4w9WgXcQ" />
+      <Video videoId="dQw4w9WgXcQ" thumbnail="/img/thumbnail.webp" />
 
       <SectionTitle
         preTitle="群友好评"
         title="听听他们怎么说"
       >
-        用户的口碑是我们前进的最大动力。以下内容来自HCC群友的真实反馈，绝无半点虚假（大概）。
+        用户的口碑是我们前进的最大动力。以下内容来自 HCC 群友的真实反馈，绝无半点虚假（大概）。
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="常见问题" title="你想知道的，这里都有">
-        我们整理了一些大家最关心的问题。如果在这里找不到答案，欢迎随时在HCC群里@伍导。
+        我们整理了一些大家最关心的问题。如果在这里找不到答案，欢迎随时在 HCC 群里@伍导。
       </SectionTitle>
 
       <Faq />
