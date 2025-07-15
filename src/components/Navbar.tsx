@@ -36,7 +36,7 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
           <ThemeChanger />
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            <Link href="https://ecwuuuuu.com/post/homelab-journey-intro/" target="_blank" rel="noopener noreferrer" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               立即购买
             </Link>
           </div>
@@ -75,7 +75,7 @@ export const Navbar = () => {
                       {item.name}
                     </Link>
                   ))}
-                  <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                  <Link href="https://ecwuuuuu.com/post/homelab-journey-intro/" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
                     立即购买
                   </Link>
                 </div>
