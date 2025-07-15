@@ -26,13 +26,13 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              5$ 你买不了吃亏，买不了上当，但你可以买到伍导温暖的怀抱和强劲的算力！
+              5$ 你买不了吃亏，买不了上当，但你可以买到 <Mark>SLA</Mark> 6 个 6 的运维服务！
             </p>
 
             <Avatar
               image={userTwoImg}
               name="群友 A"
-              title="HCC 知名水怪"
+              title="HCC 知名~~潜~~水怪"
             />
           </div>
         </div>
