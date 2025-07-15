@@ -13,7 +13,7 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              自从用了伍导的服务器，我的代码再也没有 bug 了，NPL 实验的精度也提升了<Mark>20 个点</Mark>！
+              自从用了伍导的服务器，我的代码再也没有 bug 了，NPL 实验的精度也提升了 <Mark>20 个点</Mark>！
             </p>
 
             <Avatar
@@ -26,12 +26,12 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              5$ 你买不了吃亏，买不了上当，但你可以买到 <Mark>SLA</Mark> 6 个 6 的运维服务！
+              只要 5$，你买不了吃亏，买不了上当，但你可以买到 <Mark>SLA</Mark> 6 个 6 的运维服务！
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="群友 A"
+              name="群友 K"
               title="HCC 核心成员"
             />
           </div>
@@ -63,11 +63,11 @@ interface AvatarProps {
 function Avatar(props: Readonly<AvatarProps>) {
   return (
     <div className="flex items-center mt-8 space-x-3">
-      <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
+      <div className="flex-shrink-0 overflow-hidden rounded-xl w-14 h-14">
         <Image
           src={props.image}
-          width="40"
-          height="40"
+          width="56"
+          height="56"
           alt="Avatar"
           placeholder="blur"
         />

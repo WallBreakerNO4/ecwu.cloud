@@ -22,10 +22,11 @@ export function Video({ videoId, thumbnail }: Readonly<VideoProps>) {
               <Image
                 src={thumbnail}
                 alt="Video Thumbnail"
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
                 unoptimized
               />
+
             ) : (
               <div className="w-full h-full bg-gradient-to-tr from-purple-400 to-indigo-700"></div>
             )}
