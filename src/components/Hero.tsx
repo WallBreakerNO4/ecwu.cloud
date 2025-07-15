@@ -12,7 +12,7 @@ export const Hero = () => {
               ECWU Cloud - 珠三角最大 IDC 供应商
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              由HCC群聊唯一指定IDC服务商ECWU（伍导）倾情打造，为您的计算需求提供前所未有的澎湃动力。仅需 5$，即可体验博士级的专业服务。
+              由 HCC 群聊唯一指定 IDC 服务商 ECWU（伍导）倾情打造，为您的计算需求提供前所未有的澎湃动力。仅需 5$，即可体验博士级的专业服务。
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
