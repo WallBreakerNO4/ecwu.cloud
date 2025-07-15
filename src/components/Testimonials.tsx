@@ -45,7 +45,7 @@ export const Testimonials = () => {
             <Avatar
               image={userThreeImg}
               name="某位可爱小狐狸"
-              title="Co-founder of Acme Inc"
+              title="群里的 CFA (Chief Fine Artist)"
             />
           </div>
         </div>
