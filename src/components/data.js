@@ -11,7 +11,7 @@ import benefitOneImg from "../../public/img/Benefits_A.jpg";
 import benefitTwoImg from "../../public/img/Benefits_B.jpg";
 
 const benefitOne = {
-  title: "珠三角最大IDC供应商",
+  title: "珠三角最大 IDC 供应商",
   desc: "ECWU Cloud，您身边的云服务专家。我们提供从 NAS 组建到云服务器租赁的全方位解决方案，由 NPL 方向的在读博士伍导亲自为您服务。",
   image: benefitOneImg,
   bullets: [

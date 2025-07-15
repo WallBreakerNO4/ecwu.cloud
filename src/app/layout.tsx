@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ECWU Cloud，值得信赖的云计算平台",
-  description: "ECWU Cloud，值得信赖的云计算平台，提供强大的算力和无微不至的博士级关怀。选择我们，就是选择与最前沿的NPL技术为伍。",
+  description: "ECWU Cloud，值得信赖的云计算平台，提供强大的算力和无微不至的博士级关怀。选择我们，就是选择与最前沿的 NPL 技术为伍。",
 };
 
 export default function RootLayout({
