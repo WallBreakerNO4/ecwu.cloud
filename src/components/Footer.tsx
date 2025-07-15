@@ -29,10 +29,10 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              ECWU Cloud - 珠三角最大IDC供应商，由HCC群聊唯一指定IDC服务商ECWU（伍导）倾情打造。
+              ECWU Cloud - 珠三角最大 IDC 供应商，由 HCC 唯一指定 IDC 服务商 ECWU 倾情打造。
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -46,7 +46,7 @@ export function Footer() {
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>

@@ -19,7 +19,7 @@ export const Testimonials = () => {
             <Avatar
               image={userOneImg}
               name="一位不愿透露姓名的群友"
-              title="HCC 核心成员"
+              title="HCC 知名潜水怪"
             />
           </div>
         </div>
@@ -32,20 +32,19 @@ export const Testimonials = () => {
             <Avatar
               image={userTwoImg}
               name="群友 A"
-              title="HCC 知名~~潜~~水怪"
+              title="HCC 核心成员"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              套餐中的 <Mark>在线陪聊</Mark> 太超值了！我打游戏时再也不用担心没有朋友陪我玩了！ &lt;3
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
+              name="某位可爱小狐狸"
               title="Co-founder of Acme Inc"
             />
           </div>
