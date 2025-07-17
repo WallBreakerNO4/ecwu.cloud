@@ -44,7 +44,7 @@ export const Navbar = () => {
 
         <Disclosure>
           {({ open }) => (
-            <div className="flex items-center justify-between w-full lg:hidden">
+            <>
               <Disclosure.Button
                 aria-label="Toggle Menu"
                 className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700">
@@ -68,19 +68,20 @@ export const Navbar = () => {
                 </svg>
               </Disclosure.Button>
 
-              <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
-                <div className="w-full">
+              <Disclosure.Panel className="absolute top-20 left-0 w-full bg-white/95 backdrop-blur-sm shadow-xl border-t border-gray-100 dark:border-gray-800 dark:bg-gray-900/95 lg:hidden">
+                <div className="flex flex-col items-center w-full max-w-md mx-auto py-6 space-y-1">
                   {navigation.map((item, index) => (
-                    <Link key={index} href={item.href} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                    <Link key={index} href={item.href} className="w-full py-3 text-center text-base font-medium text-gray-700 rounded-lg dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-800 focus:outline-none transition-all duration-200">
                       {item.name}
                     </Link>
                   ))}
-                  <Link href="https://ecwuuuuu.com/post/homelab-journey-intro/" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                  <div className="w-full my-4 border-t border-gray-200 dark:border-gray-700"></div>
+                  <Link href="https://ecwuuuuu.com/post/homelab-journey-intro/" target="_blank" rel="noopener noreferrer" className="w-full max-w-xs mx-auto px-6 py-3 text-center text-white bg-indigo-600 rounded-lg font-semibold hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 transition-all duration-200 shadow-sm">
                     立即购买
                   </Link>
                 </div>
               </Disclosure.Panel>
-            </div>
+            </>
           )}
         </Disclosure>
 
