@@ -56,7 +56,7 @@ export function Footer() {
             <div>关注我们</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="/twitter"
                 target="_blank"
                 rel="noopener"
               >
@@ -64,7 +64,7 @@ export function Footer() {
                 <Twitter />
               </a>
               <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="/facebook"
                 target="_blank"
                 rel="noopener"
               >
@@ -72,14 +72,14 @@ export function Footer() {
                 <Facebook />
               </a>
               <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="/instagram"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">
+              <a href="/linkedin" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
